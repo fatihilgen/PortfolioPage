@@ -1,0 +1,109 @@
+body{
+    background-color: #22313F !important;
+}
+.navbar.navbar-fixed-top{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    border-width: 0 0 1px;
+    box-shadow: 0px 3px 20px 0px #5c5c5c59;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.767);
+}
+.navbar-default{
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.mydp{
+    width: 250px;
+    height: 250px;
+}
+
+.FirstBlock{
+    margin-top: 80px;
+    .border-left{
+        border-left: 1px solid #dbdbdb;
+    }
+}
+.container-fluid{
+    .container{
+        background-color: #f6fbff;
+        padding: 50px;
+        border-radius: 15px;
+        border: 1px solid #dae1ff;
+        .fa{
+            justify-content: center;
+            display: flex;
+            margin: auto;
+        }
+        h5{
+            justify-content: center;
+            display: flex;
+            margin: auto;
+        }
+    }
+    .yorum_list{
+        background-color:rgb(159 159 159 / 23%);
+    }
+    .comment-input{
+        margin-top: 15px;
+        textarea{
+            resize: none;
+            padding: 5px;
+            height: 100%;
+            width: 100%;
+           -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+            -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+            box-sizing: border-box; 
+        }
+    }
+}
+
+.row.text-center{
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+footer{
+    color: #f8f8f8;
+    padding: 15px;
+    margin-top: 20px;
+    p{
+        margin-bottom: 0%;
+    }
+}
+
+.yorum_list{
+    border-radius: 15px;
+    height:300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .timeline{
+        padding-left: 0% !important;
+    }
+    ul {
+        list-style-type: none;
+      }
+    .card{
+        border-radius: 8px;
+        margin-top: 15px;
+    } 
+    .timeline-item{
+        .card{
+            .card-body{
+                font-style: normal;
+                font-size: 13px;
+                line-height: 21px;
+                color: #616161;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px){
+    .yorum_list{
+        margin-bottom: 15px;
+    }
+}
